@@ -1,0 +1,7 @@
+97,75,47,61,53,29
+
+FALLO EN ESTE CASO, PRIMERO ENCONTRADO, PORQUE 47 TIENE QUE ESTAR POR ENCIMA DE 61 (47|61)
+[97, 75, 61, 47, 53, 29]
+Al salir antes que el numero 61 el algoritmo cuenta como que no debe de hacer nada y despues no hay nada que lo cambie/verifique.
+
+Sin ordenar: 97,47,61,29,53,75

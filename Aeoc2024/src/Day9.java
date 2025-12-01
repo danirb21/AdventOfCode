@@ -12,7 +12,7 @@ import java.util.*;
 // 6360094256423 answer
 public class Day9 {
     public static void main(String[] args) throws IOException {
-        BufferedReader bf = new BufferedReader(new FileReader("Inputs" + File.separator + "09" + File.separator + "input.txt"));
+        BufferedReader bf = new BufferedReader(new FileReader("Inputs" + File.separator + "09" + File.separator + "input1.txt"));
         String mapaDisco;
         List<Integer> listaNumeros = new ArrayList<>();
         int id = 0;
@@ -73,7 +73,7 @@ public class Day9 {
                 acum += (long) orden * listaNumeros.get(listaNumeros.size()-1);
                 linea=linea.substring(0,linea.lastIndexOf(""+listaNumeros.remove(listaNumeros.size()-1)));
                 orden++;
-                distancia=index;
+                distancia=index; //resetea la distancia que calcula la distancia que hay hasta el siguiente punto junto con el index que es el indice que hay el siguiente .
             }
         if(!listaNumeros.isEmpty()){
             acum+= (long) orden * listaNumeros.remove(0);
