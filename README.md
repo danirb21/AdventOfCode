@@ -1,6 +1,8 @@
 # Advent Of Code
 
-Puzzles solutions of AdventOfCode in java, and python
+Puzzles solutions of AdventOfCode in java and python
+
+Solutions made by Daniel Solis Alfonso
 
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill levels that can be solved in any programming language you like.
 
