@@ -5,19 +5,17 @@ def limit_times(num,num1,es_suma) -> tuple:
     times=0
     tupla=()
     if es_suma:
-        print("he entrado "+str(num)+"   "+str(num1))
+        #print("he entrado "+str(num)+"   "+str(num1))
         while(i!=num1):
             i+=1
             num+=1
-            #print(i)
             if num==100:
                 num=0   
                 times+=1
         tupla=(num,times)          
     else:
-        print("he entrado "+str(num)+"   "+str(num1))
+        #print("he entrado "+str(num)+"   "+str(num1))
         while(i!=num1):
-            #print(i)
             i+=1
             num=num-1
             if(num==0):
@@ -32,7 +30,7 @@ password=0
 with open("input.txt","r") as fich:
     for linea in fich:
         rotacion=linea[0] 
-        print(linea) 
+        #print(linea) 
         if rotacion=='L':
             tupla=limit_times(puntero,int(linea[1::]),False)
             puntero=tupla[0]
