@@ -18,7 +18,7 @@ def limit_times(num,num1,es_suma) -> tuple:
         while(i!=num1):
             i+=1
             num=num-1
-            if(num==0):
+            if num==0:
                 times+=1
             if num==-1:
                 num=99 
